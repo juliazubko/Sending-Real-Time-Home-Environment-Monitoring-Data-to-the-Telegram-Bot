@@ -5,6 +5,6 @@ This project is a practical part of the “Applied IoT” summer course offered 
 
 See full description at https://hackmd.io/@iz222br/BJLkNrbY2  
 
-![bot](https://github.com/juliazubko/Sensor-Data-to-Telegram-Bot/assets/102211232/71da6cb6-2365-4859-8541-7574fcc0bb8f) 
+![dash](https://github.com/juliazubko/Sensor-Data-to-Telegram-Bot/assets/102211232/0ba9e9d5-204e-47e8-9c72-bd8659d64197)
 
  
