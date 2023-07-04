@@ -7,7 +7,7 @@
 
 This project is a prototype designed to monitor the home environment using IoT devices and the MQTT protocol. The current setup involves a DHT11 digital temperature and humidity sensor and a TO-92 analogue temperature sensor, both connected to a Raspberry Pi Pico W microcontroller unit (MCU). 
 
-The sensor data is transmitted via Wi-Fi using the MQTT protocol, which typically operates over TCP/IP and is used to transport lightweight messages between devices, to a free online public HiveMQ MQTT broker. 
+The sensor data is transmitted via Wi-Fi using the MQTT protocol to a free online public HiveMQ MQTT broker. 
 
 A local SQLite database client subscribes to the HiveMQ broker, retrieves the sensor messages, and stores them in a table. Another thread in the same process retrieves the SQL table data and displays it in real-time as several time-series line plots on a Dash dashboard. 
 
