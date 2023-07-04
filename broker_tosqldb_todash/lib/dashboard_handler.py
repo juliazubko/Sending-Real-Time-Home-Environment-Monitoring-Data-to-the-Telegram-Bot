@@ -20,13 +20,13 @@ class DashBoardHandler:
 
         self.app.layout = html.Div(style={'backgroundColor': colors['background'], 'color': colors['text']}, children=[
             html.H1(children="Sensor Data", style={'textAlign': 'center', 'color': colors['text']}),
-            dcc.Graph(id='live-update-graph-temperature', style={'height': '50vh',
+            dcc.Graph(id='live-update-graph-temperature', style={'height': '45vh',
                                                                  'width': '100%', 'display': 'block'}),
-            dcc.Graph(id='live-update-graph-humidity', style={'height': '50vh',
+            dcc.Graph(id='live-update-graph-humidity', style={'height': '45vh',
                                                               'width': '100%', 'display': 'block'}),
             dcc.Interval(
                 id='interval-component',
-                interval=2 * 1000,  # in milliseconds
+                interval=2 * 1000,  # in milliseconds, dvs dashpoard updates every 2 sec 
                 n_intervals=0
             )
         ])
@@ -80,7 +80,7 @@ class DashBoardHandler:
                           'title': {'text': 'Time', 'font': {'color': 'gray'}}},
                 'yaxis': {'gridcolor': '#2A3459', 'color': 'gray',
                           'title': {'text': 'Temperature', 'font': {'color': 'gray'}},
-                          'range': [current_temp_dht - 2, current_temp_dht + 2]},
+                          'range': [current_temp_dht - 2, current_temp_dht + 2]},            # centers the graph around +- 2 current temp value
                 'legend': {'font': {'color': 'gray'}}
             }
         }
