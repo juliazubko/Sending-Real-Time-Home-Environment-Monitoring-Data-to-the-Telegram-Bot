@@ -3,11 +3,6 @@
 *This project is a practical part of the "Applied IoT" summer course offered by Linnaeus University (23ST - 1DT305).*
 
 
-
-
-
-**Name**: xx yy XX222X
-
 # Project Description
 
 This project is a prototype designed to monitor the home environment using IoT devices and the MQTT protocol. The current setup involves a DHT11 digital temperature and humidity sensor and a TO-92 analogue temperature sensor, both connected to a Raspberry Pi Pico W microcontroller unit (MCU). 
