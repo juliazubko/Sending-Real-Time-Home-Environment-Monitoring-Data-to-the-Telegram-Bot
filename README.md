@@ -6,4 +6,5 @@
 **See full description at https://hackmd.io/@iz222br/BJLkNrbY2** 
 
 ![dash](https://github.com/juliazubko/Sensor-Data-to-Telegram-Bot/assets/102211232/02c60fc8-cc7e-4566-9a66-89852102d2fd)  
- 
+
+ https://github.com/juliazubko/Sensor-Data-to-Telegram-Bot/assets/102211232/bccf72ea-18f6-4ef1-930f-5c192e46bca4 
