@@ -12,7 +12,7 @@ if __name__ == "__main__":
     # DashBoard Handler
     dash_handler = DashBoardHandler(db_file="sensor_data.db", sensor_table_name="sensor_data")
 
-    # Create three threads
+    # Create two threads
     db_thread = threading.Thread(target=db_handler.run)
     dash_thread = threading.Thread(target=dash_handler.run)
 
@@ -20,7 +20,7 @@ if __name__ == "__main__":
     db_thread.start()
 
     # Add some delay before starting the dashboard
-    time.sleep(5)  # wait for 5 seconds
+    time.sleep(5)  
 
     dash_thread.start()
 
