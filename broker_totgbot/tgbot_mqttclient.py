@@ -5,7 +5,7 @@ from aiogram.dispatcher.filters import Command
 from datetime import datetime, timedelta
 
 
-class MQTTToTelegram:
+class TelegramMqttClient:
     def __init__(self, broker, port, topic, bot_token, chat_id):
         self.broker = broker
         self.port = port
@@ -93,5 +93,5 @@ if __name__ == "__main__":
     bot_token = "...put your bot token here (get one from BotFather on bot creation)"
     chat_id = "... your chat id here (run get_chat_id code if you dont know your chat_id)"    
 
-    handler = MQTTToTelegram(mqtt_broker, mqtt_port, mqtt_topic, bot_token, chat_id)
+    handler = TelegramMqttClient(mqtt_broker, mqtt_port, mqtt_topic, bot_token, chat_id)
     handler.run()
