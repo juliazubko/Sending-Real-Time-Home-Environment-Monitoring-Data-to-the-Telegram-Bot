@@ -7,7 +7,7 @@
 
 ```mermaid
 flowchart LR
-    A(MCU MQTT Client1)-->|"sends sensor data
+    A(MQTT Client1 MCU)-->|"sends sensor data
 	(publishes to the topic)"|B{{" HiveMQ 
 	MQTT Broker"}}
     
