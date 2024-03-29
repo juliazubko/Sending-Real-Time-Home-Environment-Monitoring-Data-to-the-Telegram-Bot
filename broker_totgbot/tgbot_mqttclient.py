@@ -62,7 +62,7 @@ class TelegramMqttClient:
 
     async def get_status(self, message: types.Message):
         # Consider the station to be offline if no message was received in the last 5 minutes
-        # Not optimal, simple current solution. This block is under further development 
+        # temporary solution
         if datetime.now() - self.last_received > timedelta(minutes=1):
             await self.send_telegram_message("The home station is currently offline.")
         else:
