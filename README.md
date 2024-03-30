@@ -57,9 +57,9 @@ The eventual goal is to run the system on battery power and a local MQTT broker,
 | MCP9700 TO-92 Temperature Sensor             | A low-power linear active thermistor. [Detailed MCP9700 TO-92 datasheet](https://www.electrokit.com/upload/product/41011/41011628/21942e-2.pdf)  |
 
 
-## Computer and Raspberry Pi Pico WH Setup 
 
-## Visual Studio Code (VSCode) and PyMakr Extension Installation
+
+## VSCode + PyMakr Extension Installation
 
 Program the device with VSCode (Windows 11 here), using the PyMakr extension for MicroPython. Setup steps are:
 
