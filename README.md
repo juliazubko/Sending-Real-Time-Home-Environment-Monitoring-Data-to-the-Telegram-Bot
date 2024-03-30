@@ -53,8 +53,8 @@ The eventual goal is to run the system on battery power and a local MQTT broker,
 | Breadboard with 840 Connection Points | Breadboard with 840 connection points                                                                                            |
 | USB Cable A-Male to Micro B 5-Pin Male, 1.8m | USB cable, A-male to micro B 5-pin male, 1.8m                                                                                   |
 | 20-Pack of Jumper Wires, 30cm, Male-to-Male | 20-pack of jumper wires, 30cm, male-to-male                                                                                     |
-| Digital Temperature and Humidity Sensor DHT11   | A sensor module that measures temperature and relative humidity. [Detailed DHT11 datasheet](https://www.electrokit.com/upload/product/41015/41015728/DHT11.pdf) |
-| MCP9700 TO-92 Temperature Sensor             | A low-power linear active thermistor. [Detailed MCP9700 TO-92 datasheet](https://www.electrokit.com/upload/product/41011/41011628/21942e-2.pdf)  |
+| Digital Temperature and Humidity Sensor DHT11   | A sensor module that measures temperature and relative humidity. [DHT11 datasheet](https://www.electrokit.com/upload/product/41015/41015728/DHT11.pdf) |
+| MCP9700 TO-92 Temperature Sensor             | A low-power linear active thermistor. [MCP9700 TO-92 datasheet](https://www.electrokit.com/upload/product/41011/41011628/21942e-2.pdf)  |
 
 
 
